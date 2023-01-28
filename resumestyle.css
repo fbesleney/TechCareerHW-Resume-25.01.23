@@ -1,0 +1,279 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+/* Sol Navigation Bölümü */
+
+nav{
+    width: 17rem;
+    height: 100vh;
+    background-color:#BD5D38;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.profile-foto-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    margin: 0px;
+    padding: 0px;   
+}
+
+.profile-foto{
+    width: 150px;
+    border: 10px solid #CA7D60;
+    border-radius: 50%;
+}
+
+.aside-item{
+    list-style-type:none;
+    text-align: center;
+}
+
+.aside-item-list{
+    color:#E1B6A5;
+    text-decoration: none;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.09rem;   
+}
+
+/* Ana sayfa Bölümü */
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: 12rem;
+}
+
+.resume-section{
+    display: flex;
+    align-items: center;
+    max-width: 75rem;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    min-height: 75vh;
+}
+
+.resume-section-content{
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.fa-brands{             /* class fa-brands olursa tüm img'leri etkiliyor */
+    color:#343A40;
+}
+
+hr{                     /* tüm hr taglerine aynısı uygulandı */
+    height: 1px;
+    opacity: 0.25;
+}
+
+h1{                     /* tüm h1 taglerine aynısı uygulandı */
+    color:#343A40;
+    font-size: 6rem;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin: 0;
+    margin-block-end: -0.3em;
+
+}
+
+.surname{
+    color:#BD5D38; 
+}
+
+.address{
+    color: #6C757D;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.mail{
+    color: #bd5d38;
+    text-decoration: underline;
+    font-family:"Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+}
+
+p{                      /* tüm p taglerine aynısı uygulandı */
+    color: #6C757D;
+    font-size: 1.1rem;
+    font-family:  apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+h2{                     /* tüm h2 taglerine aynısı uygulandı */
+    color: #343A40;
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 3.5rem;
+}
+
+h3{                     /* tüm h3 taglerine aynısı uygulandı */
+    text-transform: uppercase;
+    color: #343A40;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2rem;
+    margin: 0;
+}
+
+h5{                     /* tüm h5 taglerine aynısı uygulandı */
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.5rem;
+    margin: 0;
+    color:#6C757D;
+}
+
+.work-date{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    color: #bd5d38;
+}
+
+.work-date-div{
+    min-width: 18rem;
+}
+
+.resume-section-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 75rem;
+}
+
+.skills-section-divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 75rem;
+}
+
+.Prog-Lang-Ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+}
+
+.Prog-Lang{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 2.3rem;
+}
+
+.workflow-div{
+    display: flex;    
+}
+
+.workflow{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fa-solid-fa-check{     /* diğer fontawesome img'larından ayrı bir rengi olması gerektiği için sadece  fa-solid değil tam adı yazıldı "fa-solid-fa-check" */
+    color: #6C757D;
+}
+
+.workflow-list{         /* tüm hr taglerine aynısı uygulandı */
+    list-style-type: none;
+    text-decoration: none;
+    color: #6C757D;
+    font-size: 1rem;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    margin:0px;  
+}
+
+/* Awards Bölümü */
+
+.awards{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #6C757D;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    gap: 10px;
+}
+
+.fa-solid{              /* sadece fa-solid class'larını etkiliyor */
+    color: gold;
+}
+
+/* HOVERS      /    Sayfadaki tüm hover'lar burada */ 
+
+.aside-item-list:hover{
+    color:#fff;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.profile-foto:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
